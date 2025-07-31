@@ -221,6 +221,12 @@ class CLI:
 
         if is_main_cli():
             print()
+            print("  _____   _   _   ____       _    ")
+            print(" |__  /  | | | | |  _ \     / \   ")
+            print("   / /   | | | | | |_) |   / _ \  ")
+            print("  / /_   | |_| | |  _ <   / ___ \ ")
+            print(" /____|   \___/  |_| \_\ /_/   \_\\")
+            print()
             print('Console setup')
             print('_____________')
 
@@ -239,7 +245,7 @@ class CLI:
                     try:
                         text = menu_app.prompt()
                     except KeyboardInterrupt:
-                        
+
                         continue
 
                     process_menu_item(self.context, menu_items, text)
