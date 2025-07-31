@@ -127,7 +127,7 @@ class CLI:
             else:
                 print()
                 if urls:
-                    print('The web user interface is at:')
+                    print('The web user (changed) interface is at:')
                     for url in urls:
                         print(url)
                 else:
@@ -225,7 +225,7 @@ class CLI:
             print(" |__  /  | | | | |  _ \     / \   ")
             print("   / /   | | | | | |_) |   / _ \  ")
             print("  / /_   | |_| | |  _ <   / ___ \ ")
-            print(" /____|   \___/  |_| \_\ /_/   \_\\")
+            print(" /____|   \___/  |_| \_\ /_/   \_\ ")
             print()
             print('Console setup')
             print('_____________')
