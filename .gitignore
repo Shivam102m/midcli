@@ -1,0 +1,11 @@
+*.egg-info
+*.mo
+*.pyc
+*.swp
+.idea/
+__pycache__
+midcli/parser.out
+midcli/parsetab.py
+build/
+dist/
+venv/
